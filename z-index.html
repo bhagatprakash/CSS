@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z-index</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    div.box {
+      position: relative;
+      border: 5px solid gray;
+      width: 450px;
+      height: 550px;
+      left: 150px;
+      top: 100px;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    div.img {
+      position: absolute;
+      width: 100%;
+      height: 550px;
+      z-index: 2;
+    }
+    div.imgs img {
+      width: 200%;
+    }
+    .contant {
+      position: absolute;
+      position: absolute;
+      width: 150px;
+      height: 180px;
+      color: #111111;
+      font-weight: 800;
+      z-index: 2;
+      background-color: rgb(255, 255, 255, 0.1);
+      border: 3px solid rgba(19, 18, 18, 0.9);
+      padding: 20px;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div class="box">
+      <div class="contant">
+        <h1>Nature</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+          Tempore error perspiciatis pariatur, rem natus cupiditate commodi
+          dolor nisi cum rerum.
+        </p>
+      </div>
+      <div class="imgs">
+        <img
+          src="./images/mokhalad-musavi-SMB9kTF1L_s-unsplash.jpg"
+          alt="pik"
+        />
+      </div>
+    </div>
+  </body>
+</html>
