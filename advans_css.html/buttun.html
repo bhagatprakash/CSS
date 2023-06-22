@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button</title>
+  </head>
+  <style>
+    .box {
+      width: 400px;
+      height: 400px;
+      margin: auto;
+      border: 2px solid rgba(29, 26, 26, 0.085);
+      margin-top: 100px;
+      position: relative;
+    }
+    .add {
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      position: absolute;
+      left: 0px;
+      font-size: 25px;
+      bottom: -40px;
+      opacity: 0;
+      transition: 1s;
+    }
+    .box:hover .add {
+      bottom: 0px;
+      opacity: 1;
+    }
+  </style>
+  <body>
+    <div class="box">
+      <img
+        src="../images/walls-io-kRes4vq1AKg-unsplash.jpg"
+        height="100%"
+        width="100%"
+        alt="pik1"
+      />
+      <input type="button" name="" value="Add to Cart" class="add" />
+      <!-- <button class="add">Click Hear..</button> -->
+    </div>
+  </body>
+</html>
