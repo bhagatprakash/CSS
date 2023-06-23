@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+/* navbar  */
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0;
+}
+
+.logo {
+  height: 60px;
+  width: 70px;
+  margin: 10px 30px;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  font-size: 1.3rem;
+}
+#navbar ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 20px;
+  color: white;
+}
+#navbar ul li a:hover {
+  background-color: rgb(227, 234, 227);
+  color: black;
+  border-radius: 10px;
+}
+
+#navbar::before {
+  content: "";
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.8;
+}
+/* section-1  */
+.sec-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 4px 300px;
+  height: 625px;
+  justify-content: center;
+  align-items: center;
+}
+.sec-1::before {
+  content: "";
+  background: url("../images/lily-banse--YHSwy6uqvk-unsplash.jpg") no-repeat
+    center center/cover;
+  height: 45%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.89;
+}
+.heading {
+  color: rgb(10, 11, 11);
+  font-size: 50px;
+  text-align: center;
+}
+.preg-1 {
+  color: rgb(26, 28, 28);
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+}
+.btn-1 {
+  font-size: 20px;
+  padding: 10px;
+  background-color: black;
+  color: rgb(230, 235, 235);
+  border-radius: 10px;
+  opacity: 0.7;
+}
+.btn-1:hover {
+  background-color: rgb(249, 248, 248);
+  color: black;
+}
+
+/* section-2  */
+
+.heading-2 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.box {
+  margin: 34px;
+  display: flex;
+}
+.box .card {
+  border: 2px solid red;
+  padding: 34px;
+  margin: 3px 6px;
+  border-radius: 23px;
+  background-color: rgb(186, 172, 172);
+}
+.box .card img {
+  height: 190px;
+  width: 180px;
+  margin: auto;
+  display: block;
+  padding: 10px;
+}
+.box .card .heading-3 {
+  text-align: center;
+  padding: 10px;
+}
