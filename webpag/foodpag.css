@@ -54,15 +54,16 @@
   display: flex;
   flex-direction: column;
   padding: 4px 300px;
-  height: 625px;
+  height: 550px;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .sec-1::before {
   content: "";
   background: url("../images/lily-banse--YHSwy6uqvk-unsplash.jpg") no-repeat
     center center/cover;
-  height: 45%;
+  height: 95%;
   width: 100%;
   position: absolute;
   top: 0px;
@@ -72,7 +73,7 @@
 }
 .heading {
   color: rgb(10, 11, 11);
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
 }
 .preg-1 {
@@ -105,6 +106,7 @@
 .box {
   margin: 34px;
   display: flex;
+  margin-top: 8px;
 }
 .box .card {
   border: 2px solid red;
@@ -123,4 +125,98 @@
 .box .card .heading-3 {
   text-align: center;
   padding: 10px;
+  font-weight: 900;
+  font-size: 35px;
+}
+.box .card .text-2 {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* section-3  */
+
+.heading-3 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+.cilent-sec {
+  height: 343px;
+}
+.cilent-sec::before {
+  content: "";
+  position: absolute;
+  background: url(../images/bacground\ img.jpg) center/cover no-repeat;
+  width: 100%;
+  height: 40%;
+  z-index: 1;
+  opacity: 0.3;
+}
+.cilent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.cilent .cilent-item img {
+  height: 94px;
+}
+.cilent-item {
+  padding: 34px;
+}
+
+/* section-4   */
+.contect-sec {
+  padding: 10px;
+}
+
+.heading-4 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+.contectus {
+  position: relative;
+}
+.contectus::before {
+  content: "";
+  position: absolute;
+  width: 83%;
+  height: 94%;
+  z-index: 1;
+  opacity: 0.3;
+  background: url(../images/mobail\ using\ img.jpg) center/cover no-repeat;
+}
+
+.contectus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 30px; */
+}
+.contectus textarea,
+.contectus input {
+  width: 100%;
+  padding: 0.5rem;
+}
+.contectus form {
+  width: 40%;
+}
+.contectus form {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* footer  */
+.foter {
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  font-weight: bold;
+  padding: 10px;
+}
+span {
+  color: yellow;
 }
