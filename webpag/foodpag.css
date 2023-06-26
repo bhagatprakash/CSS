@@ -23,6 +23,7 @@
 
 #navbar ul {
   display: flex;
+
   list-style: none;
   font-size: 1.3rem;
 }
@@ -53,8 +54,8 @@
 .sec-1 {
   display: flex;
   flex-direction: column;
-  padding: 4px 300px;
-  height: 550px;
+  padding: 70px 30px;
+  height: 450px;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -63,7 +64,7 @@
   content: "";
   background: url("../images/lily-banse--YHSwy6uqvk-unsplash.jpg") no-repeat
     center center/cover;
-  height: 95%;
+  height: 100%;
   width: 100%;
   position: absolute;
   top: 0px;
@@ -101,6 +102,7 @@
   display: flex;
   justify-content: center;
   font-size: 40px;
+  padding: 10px;
 }
 
 .box {
@@ -157,7 +159,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  /* padding: 10px; */
   margin: 10px;
 }
 .cilent .cilent-item img {
@@ -169,32 +171,32 @@
 
 /* section-4   */
 .contect-sec {
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .heading-4 {
   display: flex;
   justify-content: center;
   font-size: 40px;
+  padding: 10px;
 }
-.contectus {
-  position: relative;
-}
+/* .contectus {
+} */
 .contectus::before {
   content: "";
   position: absolute;
   width: 83%;
-  height: 94%;
+  height: 100%;
   z-index: 1;
   opacity: 0.3;
   background: url(../images/mobail\ using\ img.jpg) center/cover no-repeat;
 }
 
 .contectus {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-bottom: 30px; */
 }
 .contectus textarea,
 .contectus input {

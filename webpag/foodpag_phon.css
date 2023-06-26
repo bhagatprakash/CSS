@@ -1,24 +1,49 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1170px) {
   #navbar {
     flex-direction: column;
-    width: auto;
+    width: 100%;
+    padding: 24px;
+  }
+  #navbar ul {
+    flex-direction: column;
   }
   .heading {
-    height: 1000px;
-    align-items: center;
+    margin-top: 100px;
+  }
+  .sec-1 {
+    padding: 56px 30px;
+    height: auto;
+  }
+
+  .heading-2 {
+    margin-left: 30px;
   }
 
   .box {
     flex-direction: column;
-    padding: 10px;
-    justify-content: center;
+
+    width: 84%;
+    /* justify-content: center; */
+  }
+  .box.card {
+    padding: 40px;
+    margin: 9px -30 px;
+  }
+  .cilent-sec {
+    height: 302px;
+    width: 100%;
   }
 
-  .cilent {
-    flex-direction: column;
-    height: auto;
+  .heading-4 {
+    margin-left: -10px;
+    padding: 18px;
   }
-  .contectus form {
-    width: 64%;
+  .contectus {
+    width: 100%;
+    /* margin-left: -30px; */
+  }
+
+  .foter {
+    width: 100%;
   }
 }
