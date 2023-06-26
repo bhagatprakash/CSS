@@ -145,7 +145,7 @@
 }
 .cilent-sec {
   height: auto;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 .cilent-sec::before {
   content: "";
@@ -166,7 +166,7 @@
   height: 94px;
 }
 .cilent-item {
-  padding: 34px;
+  padding: 23px;
 }
 
 /* section-4   */
