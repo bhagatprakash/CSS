@@ -144,7 +144,7 @@
   font-size: 40px;
 }
 .cilent-sec {
-  height: 343px;
+  height: auto;
 }
 .cilent-sec::before {
   content: "";
@@ -159,7 +159,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 10px; */
   margin: 10px;
 }
 .cilent .cilent-item img {
@@ -171,7 +170,8 @@
 
 /* section-4   */
 .contect-sec {
-  /* padding: 10px; */
+  /* opacity: 0.5; */
+  background: url(../images/mobail\ using\ img.jpg) center/cover no-repeat;
 }
 
 .heading-4 {
@@ -180,18 +180,14 @@
   font-size: 40px;
   padding: 10px;
 }
-/* .contectus {
-} */
+/* 
 .contectus::before {
   content: "";
   position: absolute;
   width: 83%;
   height: 100%;
-  z-index: 1;
-  opacity: 0.3;
-  background: url(../images/mobail\ using\ img.jpg) center/cover no-repeat;
-}
-
+ 
+} */
 .contectus {
   position: relative;
   display: flex;
@@ -209,6 +205,7 @@
 .contectus form {
   font-size: 25px;
   font-weight: bold;
+  color: antiquewhite;
 }
 
 /* footer  */
