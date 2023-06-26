@@ -145,6 +145,7 @@
 }
 .cilent-sec {
   height: auto;
+  margin-bottom: 80px;
 }
 .cilent-sec::before {
   content: "";
@@ -169,8 +170,7 @@
 }
 
 /* section-4   */
-.contect-sec {
-  /* opacity: 0.5; */
+.contectus {
   background: url(../images/mobail\ using\ img.jpg) center/cover no-repeat;
 }
 
@@ -180,14 +180,7 @@
   font-size: 40px;
   padding: 10px;
 }
-/* 
-.contectus::before {
-  content: "";
-  position: absolute;
-  width: 83%;
-  height: 100%;
- 
-} */
+
 .contectus {
   position: relative;
   display: flex;
