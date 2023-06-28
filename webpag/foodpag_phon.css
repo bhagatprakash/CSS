@@ -21,8 +21,8 @@
 
   .box {
     flex-direction: column;
-
-    width: 84%;
+    margin: -10px;
+    width: 100%;
     /* justify-content: center; */
   }
   .box.card {
@@ -32,7 +32,7 @@
   .cilent-sec {
     height: auto;
     width: 100%;
-    margin-bottom: 120px;
+    margin-bottom: 170px;
   }
   .service.cilent-sec {
     background: url(../images/mobail\ using\ img.jpg) center/cover no-repeat;
@@ -44,7 +44,6 @@
   }
   .contectus {
     width: 100%;
-    /* margin-left: -30px; */
   }
 
   .foter {

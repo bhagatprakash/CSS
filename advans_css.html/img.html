@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>img</title>
+  </head>
+  <style>
+    .bg_image_4 {
+      background-image: url(../images/brooke-lark-HlNcigvUi4Q-unsplash.jpg);
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      height: 500px;
+    }
+
+    .content_4 {
+      position: relative;
+    }
+
+    .content_4::after {
+      content: "";
+      position: absolute;
+      background: #074f57;
+      inset: 0;
+      z-index: -1;
+    }
+  </style>
+  <body>
+    <section class="bg_image_4">
+      <div class="content">
+        <h2>Hero title</h2>
+        <p>Hero description here</p>
+      </div>
+    </section>
+  </body>
+</html>

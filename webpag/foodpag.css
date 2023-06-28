@@ -106,14 +106,15 @@
 }
 
 .box {
-  margin: 34px;
+  margin: 16px;
   display: flex;
   margin-top: 8px;
+  padding: 10px;
 }
 .box .card {
   border: 2px solid red;
   padding: 34px;
-  margin: 3px 6px;
+  margin: 15px 15px;
   border-radius: 23px;
   background-color: rgb(186, 172, 172);
 }
@@ -191,6 +192,9 @@
 .contectus input {
   width: 100%;
   padding: 0.5rem;
+}
+.form-group {
+  padding: 10px;
 }
 .contectus form {
   width: 40%;
