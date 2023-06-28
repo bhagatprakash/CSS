@@ -12,38 +12,67 @@
       .box {
         max-width: 500px;
         margin: auto;
-        border: 2p solid red;
+        position: relative;
       }
-      img {
-        height: 400px;
-        width: 600px;
-      }
-
       .box img {
         display: block;
         width: 100%;
+        height: 500px;
       }
       .btn {
         text-decoration: none;
         display: inline-block;
-        background-color: black;
+        background-color: rgb(68, 182, 68);
         color: white;
         padding: 0.5em 1.2em;
         margin-top: 0.8rem;
       }
-      .box.contant{
-        
+      .btn:hover {
+        box-shadow: 5px 5px 10px rgb(129, 179, 22);
+      }
+      .contant {
+        position: absolute;
+        color: rgb(188, 16, 204);
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity: 0;
+        z-index: 2;
+        transition: 0.2s ease-in-out;
+      }
+      .contant:hover {
+        opacity: 1;
+        left: 50%;
+      }
+      .box::after {
+        content: "";
+        /* border: 4px solid red; */
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        z-index: 1;
+        transition: opacity 0.02s ease-in;
+      }
+      .box:hover:hover {
+        opacity: 1;
       }
     </style>
   </head>
   <body>
+    <br />
     <div class="box">
       <img
         src="../images/hanvin-cheong-JvblLUK5N6s-unsplash.jpg"
         alt="photo-1"
       />
       <div class="contant">
-        <h1>Welcome To World</h1>
+        <h2>Welcome To World</h2>
         <a href="#" class="btn">BUY NOW</a>
       </div>
     </div>
