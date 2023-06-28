@@ -22,25 +22,33 @@
   .box {
     flex-direction: column;
     margin: -10px;
-    width: 100%;
-    /* justify-content: center; */
+    width: fit-content;
+    justify-content: center;
   }
   .box.card {
-    padding: 40px;
+    padding: 19px;
     margin: 9px -30 px;
   }
   .cilent-sec {
     height: auto;
     width: 100%;
-    margin-bottom: 170px;
+    /* margin-bottom: 170px; */
   }
+  /* .cilent-sec::before {
+    height: 30%;
+  } */
   .service.cilent-sec {
     background: url(../images/mobail\ using\ img.jpg) center/cover no-repeat;
   }
 
   .heading-4 {
     margin-left: -10px;
-    padding: 18px;
+    /* padding: 18px; */
+  }
+  .contectus textarea,
+  .contectus input {
+    width: 90%;
+    padding: 0.5rem;
   }
   .contectus {
     width: 100%;
