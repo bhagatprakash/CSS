@@ -1,7 +1,9 @@
 * {
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
+}
+body {
+  overflow-x: hidden;
 }
 
 /* navbar  */
@@ -147,8 +149,8 @@
 }
 .cilent-sec {
   height: auto;
-  margin-bottom: 100px;
-  /* padding: 50px; */
+  margin-top: 100px;
+  /* margin-bottom: 100px; */
 }
 .cilent-sec::before {
   content: "";
