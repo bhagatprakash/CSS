@@ -5,7 +5,7 @@
 }
 #header {
   width: 100%;
-  height: 200px;
+  height: 100px;
 }
 header nav {
   display: flex;
@@ -49,36 +49,39 @@ nav .icon i:hover {
 /* section-1  */
 .section-1 {
   width: 100%;
-  height: 500px;
+  height: 600px;
   display: flex;
+  flex-wrap: wrap;
+}
+.contant {
+  width: 40%;
+  margin-left: 100px;
 }
 
 section.contant {
   align-items: center;
   justify-content: space-around;
-  position: relative;
-  top: 130px;
 }
 .contant h1 {
   font-size: 60px;
-  position: relative;
-  top: -90px;
-  left: 20px;
+  margin-top: 90px;
 }
 .contant h1 span {
   font-size: 60px;
   color: #fac031;
   font-family: "Dancing Script", cursive;
 }
-.img-1 img {
-  width: 500px;
-  position: absolute;
-  float: left;
-  left: 80px;
+.img-1 {
+  width: 30%;
+}
+.contant p {
+  font-size: 20px;
+  margin-top: 90px;
+  margin-bottom: 50px;
 }
 
 .btn {
-  padding: 15px 25px;
+  padding: 12px 40px;
   font-weight: bold;
   background-color: #fac031;
   color: white;
@@ -89,4 +92,79 @@ section.contant {
   color: #fff;
   margin-right: 5px;
   text-decoration: none;
+}
+/* section-2  */
+
+.section-2 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contant-2 {
+  width: 45%;
+  /* margin-bottom: 40px; */
+}
+
+section.contant--2 {
+  align-items: center;
+  justify-content: space-around;
+}
+.contant-2 h1 {
+  font-size: 60px;
+  margin-top: 90px;
+  color: #fac031;
+  font-family: "Dancing Script", cursive;
+}
+.contant-2 h1 span {
+  font-size: 60px;
+  margin-top: 90px;
+  color: #111010;
+  font-family: "Dancing Script", cursive;
+}
+
+.img-2 {
+  width: 50%;
+  margin-top: 60px;
+}
+
+.contant-2 h3 {
+  font-size: 30px;
+  margin-top: 50px;
+  color: #111010;
+}
+
+.contant-2 p {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.btn-1 {
+  padding: 12px 40px;
+  font-weight: bold;
+  background-color: #fac031;
+  color: white;
+  cursor: pointer;
+}
+
+/* section-3  */
+
+.menu {
+  width: 100%;
+  padding: 70px 0;
+}
+
+.menu h1 {
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.menu h1 span {
+  color: #fac031;
+  margin-left: 15px;
+  font-family: "Dancing Script", cursive;   
 }
