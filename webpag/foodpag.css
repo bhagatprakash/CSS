@@ -132,7 +132,7 @@ body {
   padding: 20px;
 }
 .box .card {
-  /* border: 2px solid red; */
+
   padding: 24px;
   margin: 15px 15px;
   border-radius: 23px;
@@ -168,7 +168,6 @@ body {
 .cilent-sec {
   height: auto;
   margin-top: 35px;
-  /* margin-bottom: 100px; */
 }
 .cilent-sec::before {
   content: "";
