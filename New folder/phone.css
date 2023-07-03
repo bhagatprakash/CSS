@@ -1,0 +1,156 @@
+@media only screen and (max-width: 800px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+  }
+  nav .logo img {
+    margin-right: 330px;
+  }
+  header nav {
+    display: flex;
+    flex-direction: column;
+  }
+  #nav ul li a {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+
+  header nav ul {
+    margin-right: 284px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  header nav ul li a {
+    font-size: 28px;
+  }
+  nav .icon {
+    font-size: 30px;
+    margin-right: 330px;
+  }
+  /* section-1  */
+  .contant {
+    width: 52%;
+    margin-left: 100px;
+  }
+  .contant p {
+    font-size: 25px;
+    margin-top: 57px;
+  }
+  .contant h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .section-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 1850px;
+  }
+  .img-1 {
+    width: 90px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  /* section-2  */
+  .section.contant--2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .img-2 {
+    width: 50%;
+    /* margin-top: 150px; */
+  }
+
+  /* section-3  */
+  .menu .menu_box {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu .menu_card {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .menu-img img:hover {
+    transform: scale(1.1);
+  }
+  .menu_card:hover.small_card {
+    position: relative;
+    top: -240px;
+    right: 20px;
+    opacity: 1;
+  }
+
+  /* section-4  */
+  .gallary_image_box {
+    width: 92%;
+  }
+  .gallary h1 {
+    margin-left: -20px;
+    padding: 10px;
+  }
+
+  .gallary_image_box {
+    display: flex;
+    flex-direction: column;
+  }
+  /* section-5  */
+  .review h1 {
+    font-size: 40px;
+  }
+  .review-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .review-card {
+    width: 365px;
+    padding: 23px;
+    margin: 15px;
+  }
+  /* section-6  */
+  .oreder {
+    width: 100%;
+    height: 130vh;
+  }
+  .oreder_box {
+    display: flex;
+    flex-direction: column;
+  }
+  .oreder_box .order_img img {
+    width: 400px;
+  }
+  .oreder_box form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+  /* section-7  */
+  .team-box {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+  }
+  .team-card:hover .team_profile {
+    transform: translateY(-50px);
+  }
+
+  .team-card:hover .team_text .team_social i {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+
+  /* footer  */
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .row .footer-col i:hover {
+    color: #fac031;
+  }
+  .end span {
+    color: #fac031;
+    font-weight: bold;
+  }
+}

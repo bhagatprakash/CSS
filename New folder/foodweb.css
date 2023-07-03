@@ -103,7 +103,6 @@ section.contant {
 }
 .contant-2 {
   width: 45%;
-  /* margin-bottom: 40px; */
 }
 
 section.contant--2 {
@@ -189,12 +188,11 @@ section.contant--2 {
 .menu .menu_card {
   width: 325px;
   height: 480px;
-
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
 .menu-img {
-  width: 350px;
+  width: 391px;
   height: 245px;
   margin: 0, auto;
 }
@@ -262,8 +260,7 @@ section.contant--2 {
   text-align: center;
   margin: 10px 0 5px 0;
 }
-.menu_icon i {
-}
+
 .menu_btn {
   display: flex;
   align-items: center;
@@ -552,7 +549,6 @@ section.contant--2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* position: relative; */
   transition: 0.3s;
 }
 .team-card:hover .team_profile {
