@@ -2,14 +2,17 @@
   #header {
     display: flex;
     flex-direction: column;
-    height: 220px;
+    height: 280px;
   }
-  nav .logo img {
-    margin-right: 330px;
-  }
+
   header nav {
     display: flex;
     flex-direction: column;
+    position: absolute;
+  }
+
+  nav .logo img {
+    width: 188px;
   }
   #nav ul li a {
     display: flex;
@@ -18,7 +21,6 @@
   }
 
   header nav ul {
-    margin-right: 284px;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -28,39 +30,44 @@
   }
   nav .icon {
     font-size: 30px;
-    margin-right: 330px;
   }
   /* section-1  */
   .contant {
-    width: 52%;
-    margin-left: 100px;
+    width: 100%;
+    margin-left: 0px;
+    padding: 0 15px;
   }
   .contant p {
     font-size: 25px;
     margin-top: 57px;
   }
   .contant h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 30px;
   }
-  .section-1 {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    height: 1850px;
-  }
+
   .img-1 {
-    width: 90px;
+    width: 100%;
     margin-top: 50px;
     text-align: center;
   }
   /* section-2  */
-  .section.contant--2 {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+  .section-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .img-2 {
-    width: 50%;
+    width: 100%;
     /* margin-top: 150px; */
+  }
+  .contant-2 {
+    width: 100%;
+  }
+  .contant-2 h1 {
+    margin-top: -30px;
   }
 
   /* section-3  */
@@ -112,7 +119,7 @@
   /* section-6  */
   .oreder {
     width: 100%;
-    height: 130vh;
+    height: 160vh;
   }
   .oreder_box {
     display: flex;
