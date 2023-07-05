@@ -5,36 +5,51 @@
 }
 #nav {
   width: 100%;
-  height: 100%;
+  height: 20%;
   background-color: #323637;
-  padding: 10px;
 }
-.navbar ul {
+.navbar-price {
   display: flex;
-  justify-content: space-around;
-  right: 0;
-  left: 0;
+  justify-content: space-between;
 }
-nav.navbar ul {
-  list-style: none;
+.navbar_icon {
+  margin-left: 40px;
+  font-size: small;
 }
+
+.info {
+  color: #cccccc;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+}
+.navbar_icon i {
+  color: gainsboro;
+  margin-top: 10px;
+}
+.navbar_icon-2 {
+  margin-right: 50px;
+}
+.navbar_icon-2 i {
+  color: gainsboro;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
 .navbar ul a i {
   font-size: 10px;
-  color: aliceblue;
+  color: gainsboro;
 }
 
 /* header  */
 #header {
   width: 100%;
-  height: 100px;
+  height: 80px;
 }
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* position: fixed; */
-  right: 0;
-  left: 0;
   background: white;
 }
 
@@ -70,7 +85,13 @@ nav .icon {
 nav .icon i:hover {
   color: #fac031;
 }
-
+/* slider  */
+.item {
+  height: 100%;
+  width: 100%;
+  /* background-size: 100% 100%; */
+}
+/* 
 /* section-1  */
 .review {
   width: 100%;
@@ -101,7 +122,6 @@ nav .icon i:hover {
   height: 480px;
   padding: 8px 20px;
   margin: 0 8px;
-  /* background-color: aliceblue; */
 }
 .review_profile {
   display: flex;
@@ -204,9 +224,9 @@ nav .icon i:hover {
 .footer {
   background-color: #1d1a1a;
   width: 100%;
-  height: 400px;
+  height: 530px;
   color: white;
-  padding: 30px 0 0 20px;
+  padding: 28px 50px 15px 63px;
 }
 
 .row {
@@ -220,28 +240,29 @@ nav .icon i:hover {
 }
 .footer .row .footer-col p {
   margin: 20px 0;
-  font-size: 25px;
-  color: gray;
+  font-size: 20px;
+  color: gainsboro;
 }
 .product {
   list-style-type: none;
   text-align: left;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .product a {
   text-decoration: none;
-  font-size: 25px;
-  color: gray;
+  font-size: 20px;
+  color: gainsboro;
   padding: 10px;
 }
 
 .end {
   display: flex;
   padding: 15px;
-  background-color: #23202057;
+  background-color: #433f3f5a;
   font-size: large;
-  margin-left: 20px;
+  color: gainsboro;
+  /* margin-left: 20px; */
 }
 .footers {
   text-decoration: none;
@@ -258,4 +279,35 @@ nav .icon i:hover {
 hr {
   width: 100%;
   color: #39343458;
+}
+#footer {
+  background-color: #23202057;
+}
+.footer-price {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_icon {
+  margin-left: 40px;
+  font-size: 30px;
+}
+.footer_icon i {
+  margin-left: 30px;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+.footer_serch {
+  padding: 28px;
+}
+#search {
+  border: 2px solid rgb(15, 14, 14);
+  padding: 8px;
+  background-color: #3d3b3b;
+}
+.btn-submit {
+  border: 2px solid black;
+  padding: 7px;
+  font-size: larger;
+  color: white;
+  background-color: green;
 }
