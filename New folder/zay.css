@@ -87,9 +87,8 @@ nav .icon i:hover {
 }
 /* slider  */
 .item {
-  height: 100%;
   width: 100%;
-  /* background-size: 100% 100%; */
+  /* background-repeat: no-repeat; */
 }
 /* 
 /* section-1  */
