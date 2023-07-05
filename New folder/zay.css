@@ -88,7 +88,6 @@ nav .icon i:hover {
 /* slider  */
 .item {
   width: 100%;
-  /* background-repeat: no-repeat; */
 }
 /* 
 /* section-1  */
@@ -155,7 +154,6 @@ nav .icon i:hover {
 .proudect {
   width: 100%;
   padding: 10px 0;
-  background-color: #e0e6e7;
 }
 .Featured {
   font-size: 50px;
@@ -170,10 +168,11 @@ nav .icon i:hover {
   justify-content: center;
 }
 .proudect-box {
-  width: 95%;
+  width: 100%;
   margin: 60px auto;
   display: flex;
   gap: 10;
+  background-color: #e0e6e7;
 }
 .proudect-card {
   width: 500px;

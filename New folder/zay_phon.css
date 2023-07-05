@@ -1,0 +1,59 @@
+@media only screen and (max-width: 800px) {
+  #nav {
+    display: none;
+  }
+  .navbar-price {
+    display: flex;
+    flex-direction: column;
+  }
+  .review-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .review-card {
+    margin: 0px -60px;
+  }
+  .review p {
+    font-size: 26px;
+    text-align: center;
+  }
+  .proudect-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proudect-card {
+    /* margin: 40px 8px; */
+    margin: 19px -29px;
+  }
+  .proudect-img img {
+    width: 88%;
+  }
+  .product_price {
+    font-size: 25px;
+    margin-right: 62px;
+  }
+  .preg {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    height: auto;
+  }
+  .footer-price {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer_serch {
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .end {
+  }
+}
