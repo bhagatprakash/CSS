@@ -20,7 +20,7 @@
 .info {
   color: #cccccc;
   font-size: large;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "font-family: 'Dancing Script', cursive";
   font-weight: 100;
 }
 .navbar_icon i {
@@ -153,6 +153,7 @@ nav .icon i:hover {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  font-family: "Dancing Script", cursive;
 }
 .review p {
   font-size: 20px;
@@ -211,6 +212,7 @@ nav .icon i:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Dancing Script", cursive;
 }
 .preg {
   font-size: 20px;
