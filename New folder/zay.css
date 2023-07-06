@@ -86,10 +86,61 @@ nav .icon i:hover {
   color: #fac031;
 }
 /* slider  */
-.item {
+.items {
   width: 100%;
+  height: 500px;
+  display: flex;
 }
-/* 
+.h2 {
+  font-size: 60px;
+  margin: 0;
+}
+.zay {
+  font-size: 55px;
+}
+
+.phr.h2 {
+  font-size: 60px;
+  color: green;
+}
+
+.phr h2 span {
+  font-size: 40px;
+  color: green;
+  font-family: sans-serif;
+}
+
+.owl-carousel {
+  width: 100%;
+  background: #efefef !important;
+}
+
+.short {
+  margin-top: 0;
+  font-size: 25px;
+}
+.short-1 {
+  font-size: large;
+}
+.item {
+  display: flex;
+}
+.owl-carousel .owl-item img {
+  height: 400px;
+}
+
+.owl-item {
+  left: 0 !important;
+}
+.phr {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.phr-img,
+.phr {
+  width: 50%;
+}
 /* section-1  */
 .review {
   width: 100%;

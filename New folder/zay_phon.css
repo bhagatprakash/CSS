@@ -23,7 +23,6 @@
   }
 
   .proudect-card {
-    /* margin: 40px 8px; */
     margin: 19px -29px;
   }
   .proudect-img img {
@@ -44,7 +43,6 @@
   }
   .footer {
     height: auto;
-    /* padding: 25px 16p; */
     padding: 28px 14px;
   }
   .footer-price {
@@ -58,5 +56,26 @@
   }
   .footer_icon {
     margin-left: 0;
+  }
+
+  /* slider  */
+  .items {
+    width: 100%;
+    height: 400px;
+    display: flex;
+  }
+  .items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 600px;
+  }
+  .phr-img {
+    width: 100%;
+  }
+
+  .phr-img,
+  .phr {
+    display: flex;
+    flex-direction: column;
   }
 }

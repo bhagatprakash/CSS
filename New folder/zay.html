@@ -10,7 +10,7 @@
     />
 
     <link rel="stylesheet" href="./zay.css" />
-     <link rel="stylesheet" href="./zay_phon.css" />
+    <link rel="stylesheet" href="./zay_phon.css" />
 
     <!-- css link -->
     <link rel="stylesheet" href="./css/owl.carousel.css" />
@@ -63,16 +63,58 @@
       </nav>
     </header>
     <!-- slider  -->
-    <div class="container">
-      <div class="owl-carousel owl-theme">
-        <div class="item">
-          <img src="../images/slider-3.jpg" height="600px" alt="pik-1" />
+    <div id="slider">
+      <div id="owl-demo" class="owl-carousel owl-theme">
+        <div class="items">
+          <div class="phr">
+            <h2 class="zay">Zay <span>eCommerce</span></h2>
+            <br />
+            <p class="short">Tiny and Perfect eCommerce Template</p>
+            <br />
+            <p class="short-1">
+              Zay Shop is an eCommerce HTML5 CSS template with latest version of
+              Bootstrap 5 (beta 1). This template is 100% free provided by
+              TemplateMo website. Image credits go to Freepik Stories, Unsplash
+              and Icons 8.
+            </p>
+          </div>
+          <div class="phr-img">
+            <img src="../images/slider-1.jpg" alt="pik-1" />
+          </div>
         </div>
-        <div class="item">
-          <img src="../images/slider-2.jpg" height="600px" alt="pik-2" />
+
+        <div class="items">
+          <div class="phr">
+            <h2 class="h2">Repr in voluptate</h2>
+            <br />
+            <p class="short">Ullamco laboris nisi ut</p>
+            <br />
+            <p class="short-1">
+              We bring you 100% free CSS templates for your websites. If you
+              wish to support TemplateMo, please make a small contribution via
+              PayPal or tell your friends about our website. Thank you.
+            </p>
+          </div>
+          <div class="phr-img">
+            <img src="../images/slider-2.jpg" alt="pik-2" />
+          </div>
         </div>
-        <div class="item">
-          <img src=" ../images/slider-1.jpg" height="600px" alt="pik-3" />
+        <div class="items">
+          <div class="phr">
+            <h2 class="h2">Proident occaecat</h2>
+            <br />
+            <p class="short">Aliquip ex ea commodo consequat</p>
+            <br />
+            <p class="short-1">
+              Proident occaecat Aliquip ex ea commodo consequat You are
+              permitted to use this Zay CSS template for your commercial
+              websites. You are not permitted to re-distribute the template ZIP
+              file in any kind of template collection websites.
+            </p>
+          </div>
+          <div class="phr-img">
+            <img src="../images/slider-3.jpg" alt="pik-3" />
+          </div>
         </div>
       </div>
     </div>
@@ -315,33 +357,20 @@
       <p class="end">Copyright © 2021 Company Name | Designed by Dipakpal</p>
     </div>
 
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
     <script>
       $(document).ready(function () {
-        $(".owl-carousel").owlCarousel({
+        $("#owl-demo").owlCarousel({
           items: 1,
-          margin: 20,
           nav: true,
+          loop: true,
           //   mouseDrag: false,
           //   stagePadding: 50,
           autoplay: true,
-          autoplayTimeout: 2000,
+          autoplayTimeout: 5000,
           animateOut: "animateOut",
           animateIn: "animateIn",
-          //   responsive: {
-          //     0: {
-          //       items: 1,
-          //       nav: true,
-          //     },
-          //     600: {
-          //       items: 3,
-          //       nav: false,
-          //     },
-          //     1000: {
-          //       items: 5,
-          //       nav: true,
-          //       loop: false,
-          //     },
-          //   },
         });
       });
     </script>
