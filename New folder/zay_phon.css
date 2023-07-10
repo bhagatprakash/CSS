@@ -17,6 +17,7 @@
     font-size: 26px;
     text-align: center;
   }
+
   .proudect-box {
     display: flex;
     flex-direction: column;
@@ -31,6 +32,10 @@
   .product_price {
     font-size: 25px;
     margin-right: 62px;
+  }
+  .proudect-text {
+    padding: 10px;
+    background: #fff;
   }
   .preg {
     font-size: 26px;
@@ -48,14 +53,17 @@
   .footer-price {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
   }
   .footer_serch {
-    margin-left: 10px;
+    margin-left: -10px;
     padding: 10px;
   }
   .footer_icon {
     margin-left: 0;
+  }
+  .footer_icon i {
+    margin-left: 20px;
   }
 
   /* slider  */
