@@ -88,6 +88,9 @@
     padding: 12px;
     background: #212934 !important;
   }
+  .end {
+    padding: 15px;
+  }
 
   /* slider  */
   .items {
@@ -136,7 +139,7 @@
       font-size: 25px;
     }
     .fa-solid {
-      font-size: 29px;
+      font-size: 22px;
       padding: 0 10px;
     }
     #gsearch {
