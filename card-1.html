@@ -12,19 +12,79 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
-  <style></style>
+  <style>
+    * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+    .container {
+      width: 100%;
+      height: 800px;
+      padding-bottom: 50px;
+    }
+    .container h1 {
+      text-align: center;
+      padding: 20px 0px;
+      font-size: 40px;
+    }
+    .review-box {
+      width: 1170px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: auto;
+    }
+    .review_card {
+      flex-basis: 30%;
+      box-shadow: 0px 0px 10px 3px lightgray;
+      background-color: #fff;
+      text-align: center;
+      margin: 10px 0px;
+    }
+    .review-box :hover{
+        background-color: bisque;
+      }
+
+    h3{
+      padding: 10px 0px;
+    }
+     .review-box :hover h3, .review-box :hover .review-icon ,.review-box :hover .review_social{
+      background-color: rgb(146, 207, 197);
+     }
+    .review-icon{
+      padding: 5px 0px;
+      font-size: larger;
+    }
+    .review_social{
+      padding: 5px 0px;
+    }
+    .review_card p{
+      padding: 10px 0px;
+      line-height: 20px;
+    }
+
+    @media only screen and (min-width:200px) and (max-width:767px) {
+      
+       .review-box{
+        width: 100%;
+        flex-direction: column;
+       }
+        .review_card{
+          margin: 20px;
+        }
+    }
+  </style>
   <body>
-    <section class="review">
+    <section class="container">
       <h1>Customer<span> Review</span></h1>
 
       <div class="review-box">
         <div class="review_card">
-          <div class="review-profile">
-            <img src="./image--1/review_1.png" />
-          </div>
+          <img src="./image--1/review_1.png" />
+
           <div class="review_text">
             <h3>Dipak Pal</h3>
-
             <div class="review-icon">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -43,16 +103,163 @@
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Repellendus quam facere blanditiis in fugiat tempore
-              necessitatibus aliquid. Id adipisci, rem corrupti asperiores
-              distinctio delectus quae quia tenetur totam laboriosam quam. Lorem
+             
+              ullam ipsa voluptates repudiandae dignissimos deleniti mollitia
+              eum.
+            </p>
+          </div>
+        </div>
+
+        <div class="review_card">
+          <img src="./image--1/review_1.png" />
+
+          <div class="review_text">
+            <h3>Dipak Pal</h3>
+            <div class="review-icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            <div class="review_social">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellendus quam facere blanditiis in fugiat tempore
+             
+              ullam ipsa voluptates repudiandae dignissimos deleniti mollitia
+              eum.
+            </p>
+          </div>
+        </div>
+        <div class="review_card">
+          <img src="./image--1/review_1.png" />
+
+          <div class="review_text">
+            <h3>Dipak Pal</h3>
+            <div class="review-icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            <div class="review_social">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              
               ipsum, dolor sit amet consectetur adipisicing elit. Dolores soluta
               ullam ipsa voluptates repudiandae dignissimos deleniti mollitia
               eum.
             </p>
           </div>
         </div>
-      </div>
-      
+
+        <div class="review_card">
+          <img src="./image--1/review_1.png" />
+
+          <div class="review_text">
+            <h3>Dipak Pal</h3>
+            <div class="review-icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            <div class="review_social">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellendus quam facere blanditiis in fugiat tempore
+              
+              ullam ipsa voluptates repudiandae dignissimos deleniti mollitia
+              eum.
+            </p>
+          </div>
+        </div>
+
+        <div class="review_card">
+          <img src="./image--1/review_1.png" />
+
+          <div class="review_text">
+            <h3>Dipak Pal</h3>
+            <div class="review-icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            <div class="review_social">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellendus quam facere blanditiis in fugiat tempore
+              
+              ullam ipsa voluptates repudiandae dignissimos deleniti mollitia
+              eum.
+            </p>
+          </div>
+        </div>
+
+        <div class="review_card">
+          <img src="./image--1/review_1.png" />
+
+          <div class="review_text">
+            <h3>Dipak Pal</h3>
+            <div class="review-icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            <div class="review_social">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellendus quam facere blanditiis in fugiat tempore
+              
+              ullam ipsa voluptates repudiandae dignissimos deleniti mollitia
+              eum.
+            </p>
+          </div>
+        </div>
+
+        </div>
       </div>
     </section>
   </body>

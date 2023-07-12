@@ -18,62 +18,6 @@
     text-align: center;
   }
 
-  .proudect-box {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .proudect-card {
-    margin: 40px -87px;
-    height: 490px;
-  }
-  .proudect-img img {
-    width: 75%;
-  }
-  .texts {
-    text-align: center;
-  }
-
-  .proudect {
-    padding: 50px 70px;
-  }
-  .product_price {
-    font-size: 25px;
-    margin-right: 62px;
-  }
-  .proudect-text {
-    padding: 10px;
-    background: #fff;
-    height: 250px;
-  }
-  .review_icon {
-    font-size: large;
-  }
-
-  .proudect-text p {
-    width: 84%;
-    display: flex;
-  }
-
-  .preg {
-    font-size: 20px;
-    padding-top: 19px;
-  }
-
-  .row {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer {
-    height: auto;
-    padding: 28px 0px;
-    height: 935px;
-  }
-  .footer-price {
-    display: flex;
-    flex-direction: column;
-    /* text-align: center; */
-  }
   .footer_serch {
     margin-left: -10px;
     padding: 10px;
