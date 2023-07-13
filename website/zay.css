@@ -129,6 +129,16 @@ nav ul li a:hover {
   width: 100%;
   background: #efefef !important;
 }
+/* .owl-nav::after span {
+  display: block;
+} */
+
+button.owl-next span {
+  display: none;
+}
+button.owl-prev span {
+  display: none;
+}
 
 .short {
   margin-top: 0;
