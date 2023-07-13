@@ -239,75 +239,70 @@ button.owl-next {
 }
 
 /* section-2 */
+
 .proudect {
-  padding: 80px 70px;
+  width: 100%;
+  /* height: 830px; */
   background-color: #e0e6e7;
 }
-.texts {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: "Roboto", sans-serif;
-}
-.Featured {
-  font-size: 48px;
-}
-.preg {
-  font-size: 20px;
+.proudect .head {
   text-align: center;
+  font-size: 40px;
 }
-.proudect-box {
-  width: 100%;
-  margin-top: 50px;
+.proudect .head-pre {
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 0px;
+}
+.review_box {
+  width: 1180px;
+  justify-content: center;
+  margin: auto;
   display: flex;
-
   background-color: #e0e6e7;
 }
-.proudect-card {
-  width: 500px;
-  height: 640px;
-  margin: 0 8px;
+.proudect_card {
+  background-color: #fff;
+  margin: 0px 15px;
+  box-shadow: 0px 0px 10px 3px lightgray;
+  height: 650px;
 }
-
-.proudect-img img {
+.proudect_card img {
+  height: 300px;
   width: 100%;
 }
-.proudect-text {
-  background-color: #fff;
-  height: 350px;
-}
-
-.proudect-text p {
-  font-size: larger;
-  padding: 10px;
-  font-family: "Roboto", sans-serif;
-}
-
-.rating_price {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  opacity: 0.6;
-}
-.review_icon {
-  color: #fac031;
+.proudect_card .review-icon {
+  padding: 10px 0px;
+  color: rgba(42, 190, 31, 0.584);
   font-size: larger;
 }
-.product_price {
-  font-size: large;
+.gym {
+  font-size: 40px;
+  padding: 0px 0px;
+  color: gray;
 }
-.name {
-  font-size: 30px;
-  opacity: 0.6;
+.proudect_text {
   margin-left: 10px;
-  font-family: "Roboto", sans-serif;
 }
-.rev {
-  opacity: 0.5;
-  font-size: 20px;
-  margin-top: 15px;
-  margin-left: 15px;
+.proudect_text p {
+  font-size: larger;
+}
+.Review {
+  color: gray;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .proudect .head {
+    font-size: 40px;
+  }
+  .review_box {
+    width: 100%;
+    flex-direction: column;
+  }
+  .proudect_card {
+    margin: 20px;
+  }
 }
 
 /* footer  */
@@ -365,7 +360,6 @@ button.owl-next {
 .end {
   width: 100%;
   display: flex;
-  /* padding: 15px; */
   background-color: #212934 !important;
   font-size: large;
   color: gainsboro;
@@ -416,7 +410,6 @@ button.owl-next {
   background-color: #212934 !important;
   opacity: 0.1;
   border-radius: 5px;
-  /* color: white; */
 }
 
 .btn-submit {
@@ -427,4 +420,11 @@ button.owl-next {
   background-color: rgb(75, 211, 75);
   opacity: 0.8;
   border-radius: 5px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
 }
